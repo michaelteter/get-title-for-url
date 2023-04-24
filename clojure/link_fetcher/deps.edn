@@ -1,0 +1,9 @@
+
+{:paths ["src"]
+:deps {org.clojure/clojure {:mvn/version "1.10.3"}
+        org.clojure/java.jdbc {:mvn/version "0.7.11"}
+        org.xerial/sqlite-jdbc {:mvn/version "3.36.0.3"}
+        org.jsoup/jsoup {:mvn/version "1.15.4"}}
+ :aliases
+ {:run
+  {:main-opts ["-m" "core"]}}}
